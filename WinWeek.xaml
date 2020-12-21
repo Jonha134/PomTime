@@ -1,0 +1,28 @@
+﻿<Window x:Class="Pom.WinWeek"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pom"
+        mc:Ignorable="d"
+        ShowInTaskbar="False"
+        Title="Week view" Height="450" Width="800">
+    <Grid>
+        <Label Content="Monday"    HorizontalAlignment="Left" Margin="50,20,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tuesday"   HorizontalAlignment="Left" Margin="150,20,0,0" VerticalAlignment="Top"/>
+        <Label Content="Wednesday" HorizontalAlignment="Left" Margin="250,20,0,0" VerticalAlignment="Top"/>
+        <Label Content="Thursday"  HorizontalAlignment="Left" Margin="350,20,0,0" VerticalAlignment="Top"/>
+        <Label Content="Friday"    HorizontalAlignment="Left" Margin="450,20,0,0" VerticalAlignment="Top"/>
+        <Label Content="Saturday"  HorizontalAlignment="Left" Margin="550,20,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sunday"    HorizontalAlignment="Left" Margin="650,20,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="LblMon" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblTue" HorizontalAlignment="Left" Margin="150,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblWed" HorizontalAlignment="Left" Margin="250,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblThu" HorizontalAlignment="Left" Margin="350,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblFri" HorizontalAlignment="Left" Margin="450,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblSat" HorizontalAlignment="Left" Margin="550,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblSun" HorizontalAlignment="Left" Margin="650,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblWeek" HorizontalAlignment="Left" Margin="0,2,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
