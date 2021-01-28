@@ -19,10 +19,10 @@
         <CommandBinding Command="{x:Static local:MainWindow.ctrlDCmd}" Executed="CtrlDCmd"/>
         <CommandBinding Command="{x:Static local:MainWindow.ctrlQCmd}" Executed="CtrlQCmd"/>
         <CommandBinding Command="{x:Static local:MainWindow.ctrlNCmd}" Executed="CtrlNCmd"/>
-        <CommandBinding Command="{x:Static local:MainWindow.ctrlNCmd}" Executed="CtrlICmd"/>
+        <CommandBinding Command="{x:Static local:MainWindow.ctrlICmd}" Executed="CtrlICmd"/>
     </Window.CommandBindings>
 
-    <Grid>
+    <Grid Focusable="True">
 
 
 

@@ -140,7 +140,7 @@ namespace Pom
             //x=3 Postpone activity
 
             //If activity should be postponed
-            if (x == 3) { AppendFile(todopath, "\n" + TBactivity.Text); }
+            if (x == 3) { AppendFile(todopath, TBactivity.Text); }
 
             //If activity is done and not empty, append to activityLog
             if (TBactivity.Text != "" && x==1) { AppendFile(activityLogpath, DateTime.Now.ToString("yy-MM-dd") + ";" + TBactivity.Text); }
